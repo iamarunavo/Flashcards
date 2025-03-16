@@ -4,7 +4,7 @@ Submitted by: **Arunavo Chowdhury**
 
 This web app: **A fun little compscitrivia**
 
-Time spent: **6** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
