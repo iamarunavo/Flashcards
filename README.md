@@ -1,10 +1,10 @@
-# Web Development Project 3 - *Compscitrivia*
+# Web Development Project 2-3 - *Compscitrivia*
 
 Submitted by: **Arunavo Chowdhury**
 
 This web app: **A fun little compscitrivia**
 
-Time spent: **2** hours spent in total
+Time spent: *4** hours spent in total
 
 ## Required Features
 
