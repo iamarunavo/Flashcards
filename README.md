@@ -1,62 +1,87 @@
-# Web Development Project 2-3 - *Compscitrivia*
+# FlashCards - WEB102 
 
 Submitted by: **Arunavo Chowdhury**
 
-This web app: **A fun little compscitrivia**
+This repository contains **Project 2** and **Project 3**, which build on each other as part of a flashcards-style web app.  
 
-Time spent: *4** hours spent in total
+- **Project 2:** Basic flashcards app with card flipping and random navigation  
+- **Project 3:** Enhanced flashcards app with user guesses, streak tracking, and card mastery  
+
+---
+
+# Project 2 - Flashcards Part 1
+
+This web app: **A simple flashcards application where users can flip cards and view random questions and answers.**
+
+Time spent: **3 hours**
 
 ## Required Features
+- [x] The app displays the title of the card set, a short description, and the total number of cards  
+  - [x] Title of card set is displayed  
+  - [x] A short description of the card set is displayed  
+  - [x] A list of card pairs is created  
+  - [x] The total number of cards in the set is displayed  
+  - [x] Card set is represented as an array of objects/dictionaries with question and answer pairs  
+- [x] A single card at a time is displayed  
+  - [x] Only one half of the information pair is shown at a time  
+- [x] Clicking on the card flips it over, showing the corresponding side  
+  - [x] Clicking again flips it back  
+- [x] Clicking the “next” button displays a random new card  
 
-The following **required** functionality is completed:
+## Optional Features
+- [ ] Cards contain images in addition to or in place of text  
+- [ ] Cards have different visual styles (e.g., categories by difficulty or subject)  
 
-- [x] **The user can enter their guess in a box before seeing the flipside of the card**
-- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
-- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
-- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
-
-The following **optional** features are implemented:
-
-- [ ] A shuffle button is used to randomize the order of the cards
-- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
-- [ ] A counter displays the user's current and longest streak of correct responses
-- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you added to improve the site's functionality!
+## Additional Features
+- [ ] Any other improvements  
 
 ## Video Walkthrough
+<img src='https://i.imgur.com/wYDET74.gif' title='Video Walkthrough' alt='Video Walkthrough' />  
 
-Here's a walkthrough of implemented user stories:
+GIF created with ScreenToGif 
 
-<img src="https://i.imgur.com/isy5tOK.gif" title="Video Walkthrough" alt="Video Walkthrough" />
+---
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-free convert
-imgur
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+# Project 3 - FlashCards Part 2
 
-## Notes
+This web app: **An improved flashcards application with user input for guessing answers, sequential navigation, and progress tracking.**
 
+Time spent: **X hours**
 
+## Required Features
+- [x] The user can enter their guess into an input box before seeing the flipside of the card  
+  - [x] Clearly labeled input box with submit button  
+  - [x] Incorrect answers show visual feedback  
+  - [x] Correct answers show visual feedback  
+- [x] The user can navigate through an ordered list of cards  
+  - [x] Forward/next button navigates to the next card  
+  - [x] Previous/back button returns to the previous card  
+  - [x] Buttons visually indicate when at the start or end of the list (disabled, grayed out, etc.)  
 
-## License
+## Optional Features
+- [ ] Shuffle button to randomize card order  
+- [ ] Answers may be considered correct even when slightly different (e.g., case-insensitive, punctuation ignored, partial match)  
+- [ ] A counter tracks the user’s current and longest streak of correct responses  
+- [ ] A user can mark a card as “mastered” and remove it from the active pool  
 
-    Copyright [2025] [Arunavo Chowdhury]
+## Additional Features
+- [ ] Any other improvements  
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+## Video Walkthrough
+<img src='https://i.imgur.com/isy5tOK.gif' title='Video Walkthrough' alt='Video Walkthrough' />  
 
-        http://www.apache.org/licenses/LICENSE-2.0
+GIF created with …  
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+---
+
+# Notes
+Describe any challenges encountered while building either part of the project or additional context you’d like to add.  
+
+---
+
+# License
+Copyright [2025] [Arunavo Chowdhury]  
+
+Licensed under the Apache License, Version 2.0 (the "License");  
+http://www.apache.org/licenses/LICENSE-2.0  
+
