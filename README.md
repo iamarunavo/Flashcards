@@ -11,7 +11,7 @@ This repository contains **Project 2** and **Project 3**, which build on each ot
 
 # Project 2 - Flashcards Part 1
 
-This web app: **A simple flashcards application where users can flip cards and view random questions and answers.**
+This web app: **A simple flashcards application where users can flip cards and view random compsci questions and answers.**
 
 Time spent: **3 hours**
 
